@@ -1,8 +1,16 @@
 # html-css-js
 
+---
+
 Diretório sobre alguns entendimentos sobre essa tríade.
 
-CSS
+Os assuntos serão divididos por diretórios, de acordo com a especificidade do que achar interessante.
+
+---
+
+## Diretório CSS
+
+Alguns trechos de códigos utilizando CSS para ver como é o seu funcionamento.
 
 ---
 
