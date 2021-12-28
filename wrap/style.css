@@ -1,0 +1,71 @@
+html,
+body,
+main,
+section,
+article * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  width: 80%;
+  margin: 0px auto;
+  padding: 4vh 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 2.5rem;
+}
+
+main {
+  width: 80%;
+  margin: 0px auto;
+  flex: 1;
+}
+
+main div {
+  margin: 8vh 0;
+}
+
+main section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+main section article {
+  padding: 2rem;
+  width: 25%;
+  background-color: gold;
+  border: 1px solid;
+}
+
+main section.with-flex-wrap {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main section.with-flex-wrap article {
+  width: 300px;
+  min-width: 200px;
+}
+
+main div h3 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+main div h3 code {
+  color: tomato;
+}

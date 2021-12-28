@@ -6,10 +6,68 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Usando flex-wrap</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <header>
+    <h1>Flex-wrap</h1>
+    <p>A propriedade flex é age como um "breakpoint" para elementos html de uma forma bem mais simples.</p>
+  </header>
+  <main>
+    <div>
+
+      <h1>Sem flex-wrap</h1>
+      <h3>
+        "É como se já estivesse com a propriedade <code>flex-wrap</code> como <code>nowrap</code>
+      </h3>
+      <section>
+        <article>
+          <h1>Article 1</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+          <h1>Article 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestias id quaerat neque labore ipsam, veritatis rerum nemo atque. Eius est animi saepe id tempore eligendi repellat at quis magni.</p>
+        </article>
+        <article>
+          <h1>Article 3</h1>
+          <p> Ex, neque modi hic aspernatur ab sunt facere sequi eveniet? Ipsa maiores autem voluptates voluptate velit unde laboriosam molestiae at hic nobis!</p>
+        </article>
+        <article>
+          <h1>Article 4</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a officiis aperiam quod animi eveniet amet, in natus velit dolorem sed suscipit mollitia exercitationem deserunt eaque perferendis vitae consectetur maiores!</p>
+        </article>
+      </section>
+
+    </div>
+
+
+    <div>
+      <h1>Com flex-wrap</h1>
+      <h3>Para a propriedade <code>flex-wrap:wrap</code> funcionar, deve-se adicionar a propriedade <code>min-width</code> ao elemento alvo.</h3>
+
+      <section class="with-flex-wrap">
+        <article>
+          <h1>Article 1</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+          <h1>Article 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestias id quaerat neque labore ipsam, veritatis rerum nemo atque. Eius est animi saepe id tempore eligendi repellat at quis magni.</p>
+        </article>
+        <article>
+          <h1>Article 3</h1>
+          <p> Ex, neque modi hic aspernatur ab sunt facere sequi eveniet? Ipsa maiores autem voluptates voluptate velit unde laboriosam molestiae at hic nobis!</p>
+        </article>
+        <article>
+          <h1>Article 4</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a officiis aperiam quod animi eveniet amet, in natus velit dolorem sed suscipit mollitia exercitationem deserunt eaque perferendis vitae consectetur maiores!</p>
+        </article>
+      </section>
+    </div>
+  </main>
 </body>
 
 </html>
