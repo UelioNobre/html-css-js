@@ -20,3 +20,9 @@ Para a propriedade <code>flex-wrap</code> funcionar, deve-se adicionar a proprie
 
 - nowrap
 - wrap
+
+### React
+
+Icones para usar no react;
+
+- No Figma, instalar o plugin Iconify
